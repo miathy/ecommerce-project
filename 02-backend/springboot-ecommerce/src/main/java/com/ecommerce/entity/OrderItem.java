@@ -23,12 +23,12 @@ public class OrderItem {
 	@Column(name="id")
 	private Long id;
 	
-	@Column(name="image")
-    private String image;
+//	@Column(name="image")
+//    private String image;
 	
-//	@Column(name="image_url")
-//    private String imageUrl;
-//	
+	@Column(name="image_url")
+    private String imageUrl;
+	
 	@Column(name="unit_price")
 	private BigDecimal unitPrice;
 	
